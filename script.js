@@ -44,7 +44,7 @@ document.getElementById("mic-btn").addEventListener("click", async () => {
   } else {
     await localTracks.audioTrack.setMuted(false);
     localTrackState.audioTrackMuted = false;
-    document.getElementById("mic-btn").style.backgroundColor = "#1f1f1f8e";
+    document.getElementById("mic-btn").style.backgroundColor = "green";
   }
 });
 
@@ -60,7 +60,7 @@ document.getElementById("camera-btn").addEventListener("click", async () => {
   } else {
     await localTracks.videoTrack.setMuted(false);
     localTrackState.videoTrackMuted = false;
-    document.getElementById("camera-btn").style.backgroundColor = "#1f1f1f8e";
+    document.getElementById("camera-btn").style.backgroundColor = "green";
   }
 });
 
