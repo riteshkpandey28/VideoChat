@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Video Chat - Stupiloid_coder</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+
+</head>
+
+<body>
+
+    <main>
+
+        <h1 id="site-title">Stupiloids Streams</h1>
+        <div id="join-wrapper">
+            <input id="username" type="text" placeholder="Enter your name..." />
+            <button id="join-btn">Join Stream</button>
+        </div>
+        <div id="user-streams"></div>
+
+        <!-- Wrapper for join button -->
+        <div id="footer">
+            <div class="icon-wrapper">
+                <img class="control-icon" id="camera-btn" />
+                <p>Cam</p>
+            </div>
+
+            <div class="icon-wrapper">
+                <img class="control-icon" id="mic-btn" />
+                <p>Mic</p>
+            </div>
+
+            <div class="icon-wrapper">
+                <img class="control-icon" id="leave-btn" />
+                <p>Leave</p>
+            </div>
+        </div>
+
+    </main>
+
+    <div class="text-center footer p-3">
+        <p>Copyright &copy; Ritesh Kumar Pandey</a> </p>
+        <div class="row">
+            <div class="col-sm">
+                <a href="https://www.instagram.com/stupiloid_coder/" target="blank"><i class="fab fa-instagram"></i>
+                    stupiloid_coder</a>
+            </div>
+            <div class="col-sm">
+                <a href="https://www.linkedin.com/in/ritesh28p/" target="blank"><i class="fab fa-linkedin"></i>
+                    ritesh28p</a>
+            </div>
+            <div class="col-sm">
+                <a href="https://api.whatsapp.com/send?phone=9082407433" target="blank"><i class="fas fa-phone-alt"></i>
+                    +91
+                    90824 07433</a>
+            </div>
+            <div class="col-sm">
+                <a href="mailto:stupiloids.coder@gmail.com" target="blank"><i class="fas fa-envelope"></i>
+                    stupiloids.coder@gmail.com</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://download.agora.io/sdk/release/AgoraRTC_N.js"></script>
+    <script src='script.js'></script>
+</body>
+
+</html>
