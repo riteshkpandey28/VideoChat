@@ -3,9 +3,9 @@ let client = AgoraRTC.createClient({ mode: "rtc", codec: "vp8" });
 
 //#2
 let config = {
-  appid: "02e02ce54a8548259fee3d95fa032974",
+  appid: "",
   token:
-    "00602e02ce54a8548259fee3d95fa032974IAAZyos0yn5DtQpNR+zWe8Chftzyfa86jFmD93TejpUBmxSOi98AAAAAEADsTG0XrdOYYQEAAQCq05hh",
+    "",
   uid: null,
   channel: "Stupiloids Streams",
 };
